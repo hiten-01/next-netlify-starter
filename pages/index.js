@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>原神サポート</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/pimon.png" />
       </Head>
 
       <main>
