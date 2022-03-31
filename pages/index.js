@@ -9,16 +9,17 @@ export default function Home() {
         <title>原神サポート</title>
         <link rel="icon" href="/pimon.png" />
       </Head>
-
-      <main className="background">
-        <Header title="原神サポートへようこそ!" />
-        <p className="description">
-          このサイトは原神サポートの管理するサイトです。
-        </p>
-        <p>
-          御用の際は<a href="https://twitter.com/Hgrs71umnk" target="_blank" rel="noopener noreferrer">緋天</a>までご連絡ください。
-        </p>
-      </main>
+      <div className="background">
+        <main>
+          <Header title="原神サポートへようこそ!" />
+          <p className="description">
+            このサイトは原神サポートの管理するサイトです。
+          </p>
+          <p>
+            御用の際は<a href="https://twitter.com/Hgrs71umnk" target="_blank" rel="noopener noreferrer">緋天</a>までご連絡ください。
+          </p>
+        </main>
+      </div>
 
       <Footer />
     </div>
