@@ -17,8 +17,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.background{
   background-image : url("/genshin-title.jpg");
 }
+
 
 code {
   background: #fafafa;
