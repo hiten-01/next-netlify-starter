@@ -4,12 +4,13 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>原神サポート</title>
-        <link rel="icon" href="/pimon.png" />
-      </Head>
-      <div className="background">
+    <div className="background">
+      <div className="container">
+        <Head>
+          <title>原神サポート</title>
+          <link rel="icon" href="/pimon.png" />
+        </Head>
+      
         <main>
           <Header title="原神サポートへようこそ!" />
           <p className="description">
@@ -19,9 +20,10 @@ export default function Home() {
             御用の際は<a href="https://twitter.com/Hgrs71umnk" target="_blank" rel="noopener noreferrer">緋天</a>までご連絡ください。
           </p>
         </main>
-      </div>
+      
 
-      <Footer />
+        <Footer />
+      </div>
     </div>
   )
 }
