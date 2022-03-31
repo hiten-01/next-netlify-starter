@@ -21,6 +21,7 @@ main {
 
 .background{
   background-image : url("/genshin-title.jpg");
+  background-size: contain;
 }
 
 
