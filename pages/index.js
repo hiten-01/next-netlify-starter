@@ -10,14 +10,16 @@ export default function Home() {
         <link rel="icon" href="/pimon.png" />
       </Head>
 
-      <main background-image : url("/genshin-title.png");>
-        <Header title="原神サポートへようこそ!" />
-        <p className="description">
-          このサイトは原神サポートの管理するサイトです。
-        </p>
-        <p>
-          御用の際は<a href="https://twitter.com/Hgrs71umnk" target="_blank" rel="noopener noreferrer">緋天</a>までご連絡ください。
-        </p>
+      <main>
+        <div background-image : url("/genshin-title.png");>
+          <Header title="原神サポートへようこそ!" />
+          <p className="description">
+            このサイトは原神サポートの管理するサイトです。
+          </p>
+          <p>
+            御用の際は<a href="https://twitter.com/Hgrs71umnk" target="_blank" rel="noopener noreferrer">緋天</a>までご連絡ください。
+          </p>
+          </div>
       </main>
 
       <Footer />
