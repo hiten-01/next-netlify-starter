@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div background-image : url("/genshin-title.png");>
+        <div background-image : url("/genshin-title.jpg");>
           <Header title="原神サポートへようこそ!" />
           <p className="description">
             このサイトは原神サポートの管理するサイトです。
