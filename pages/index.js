@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/pimon.png" />
       </Head>
 
-      <main>
+      <main className="background">
         <Header title="原神サポートへようこそ!" />
         <p className="description">
           このサイトは原神サポートの管理するサイトです。
