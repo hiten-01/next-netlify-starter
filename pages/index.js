@@ -14,7 +14,7 @@ export default function Home() {
         <main>
           <Header title="原神サポートへようこそ!" />
           <p>
-            御用の際は<a href="https://twitter.com/Hgrs71umnk" target="_blank" rel="noopener noreferrer">緋天</a>までご連絡ください。
+            御用の際はサイト管理者の<a href="https://twitter.com/Hgrs71umnk" target="_blank" rel="noopener noreferrer">緋天</a>までご連絡ください。
           </p>
         </main>
       
